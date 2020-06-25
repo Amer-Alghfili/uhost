@@ -1,0 +1,19 @@
+.features__items {
+    margin: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.features__item {
+    background-color: white;
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.features__item p {
+    width: 80%;
+    margin: 0 auto;
+    transform: translateY(180%);
+}

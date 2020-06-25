@@ -1,0 +1,5 @@
+.plans__title, .features__title {
+    color: coral;
+    text-align: center;
+    font-size: 2.5rem;
+}
