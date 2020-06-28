@@ -1,0 +1,43 @@
+.packages__items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* font-size: 1rem; */
+}
+
+.packages__item {
+    background-color: white;
+    width: 60%;
+    margin: 1rem 0;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    box-shadow: 3px 3px 3px #777;
+    overflow: hidden;
+}
+
+.packages__item-type {
+    font-size: 2rem;
+}
+
+.packages__item-title {
+    color: #aaa;
+    font-size: 1.5rem;
+}
+
+.packages__item-description {
+    font-size: 1.2rem;
+}
+
+.recommended {
+    background-color:rgb(153, 159, 238);
+    color: white;
+    width: 30%;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: rotate(50deg) translateX(5.7rem);
+}

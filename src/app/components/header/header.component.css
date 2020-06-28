@@ -1,0 +1,30 @@
+.main-header {
+  background-color: #6c98eb;
+  width: 100%;
+  padding: 0.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  box-shadow: 3px 3px 3px #aaa;
+}
+
+.main-header__image-container {
+  height: 5rem
+}
+
+.main-header__image {
+  height: 100%;
+}
+
+.main-nav__link a {
+  font-size: 1.2rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.main-nav__link a:hover {
+  color: white;
+}

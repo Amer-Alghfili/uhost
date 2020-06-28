@@ -1,0 +1,12 @@
+<main>
+  <section class="packages">
+    <ul class="packages__items">
+      <li class="packages__item" *ngFor="let package of packages">
+        <h1 class="recommended" *ngIf="package.recommended">Recommended</h1>
+        <h1 class="packages__item-type">{{ package.type }}</h1>
+        <h2 class="packages__item-title">{{ package.title }}</h2>
+        <p class="packages__item-description">{{ package.description }}</p>
+      </li>
+    </ul>
+  </section>
+</main>
